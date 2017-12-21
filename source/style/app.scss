@@ -10,5 +10,7 @@
 	@include sprite($vk);
 }
 
+@import 'section.scss';
+@import 'calculate.scss';
 
 @import 'common/media.scss'; // Всегда в конце

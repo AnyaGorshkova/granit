@@ -1,0 +1,10 @@
+.section {
+    
+}
+.section__part {
+    flex: 1;
+}
+.section--divided {
+   display: flex;
+   min-height: 700px; 
+}

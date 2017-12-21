@@ -1,0 +1,107 @@
+section.section.section--divided
+    div.section__part.section__part--img
+        h2 Выбранные конфигурации:
+        p
+            span Размер стеллы:
+            span.height-result
+    div.section__part.calculate
+        
+        p.calculate__title-config Полировка
+        input(type="radio" id="polishing" name="polishing")
+        label(for="polishing") Лицевая полировка
+
+        input(type="radio" id="polishing" name="polishing")
+        label(for="polishing") Лицевая + боковая полировка
+
+        input(type="radio" id="polishing" name="polishing")
+        label(for="polishing") Круговая полировка
+        
+        div.calculate__size-section
+            div.calculate__size-part
+                p.calculate__title-config Высота стеллы
+                div.calculate__config-item
+                    input(type="radio" id="height" name="height" value = 50)
+                    label(for="height") 50 см
+                div.calculate__config-item    
+                    input(type="radio" id="height" name="height" value = 60)
+                    label(for="height") 60 см
+                div.calculate__config-item
+                    input(type="radio" id="height" name="height" value = 70)
+                    label(for="height") 70 см
+                div.calculate__config-item
+                    input(type="radio" id="height" name="height" value = 80)
+                    label(for="height") 80 см
+                div.calculate__config-item
+                    input(type="radio" id="height" name="height" value = 90)
+                    label(for="height") 90 см
+                div.calculate__config-item
+                    input(type="radio" id="height" name="height" value = 100)
+                    label(for="height") 100 см
+                div.calculate__config-item    
+                    input(type="radio" id="height" name="height" value = 120)
+                    label(for="height" value = 120) 120 см
+            div.calculate__size-part
+                p.calculate__title-config Ширина стеллы
+
+                div.calculate__config-item
+                    input(type="radio" id="width" name="width" value = 30 checked)
+                    label(for="width") 30 см
+                div.calculate__config-item
+                    input(type="radio" id="width" name="width" value = 40 )
+                    label(for="width") 40 см
+                div.calculate__config-item
+                    input(type="radio" id="width" name="width" value = 45)
+                    label(for="width") 45 см
+                div.calculate__config-item
+                    input(type="radio" id="width" name="width" value = 50)
+                    label(for="width") 50 см
+                div.calculate__config-item
+                    input(type="radio" id="width" name="width" value = 60)
+                    label(for="width") 60 см
+            div.calculate__size-part
+                p.calculate__title-config Толщина стеллы
+
+                div.calculate__config-item
+                    input(type="radio" id="thickness" name="thickness" value = 6 checked)
+                    label(for="thickness") 6 см
+
+                div.calculate__config-item
+                    input(type="radio" id="thickness" name="thickness" value = 8)
+                    label(for="thickness") 8 см
+        div.calculate__pedestal-section            
+            p.calculate__title-config Постамент
+            div.calculate__pedestal-config
+                input.input--for-pedestal(type="radio" id="pedestal" name="pedestal")
+                label.label--for-pedestal(for="pedestal")
+                    div Высокий
+                    div 
+                    div  40 см x 20 см x 15 см
+            div.calculate__pedestal-config
+                input.input--for-pedestal(type="radio" id="pedestal" name="pedestal")
+                label.label--for-pedestal(for="pedestal")
+                div Низкий
+                div 
+                div  40 см x 20 см x 8 см
+
+        div.calculate__flowerbed-section            
+            p.calculate__title-config Цветочница
+            div.calculate__flowerbed-config
+                input(type="radio" id="flowerbed" name="flowerbed")
+                label(for="flowerbed") Без цветочницы
+            div.calculate__flowerbed-config
+                input(type="radio" id="flowerbed" name="flowerbed")
+                label(for="flowerbed") С цветочницей
+            div.calculate__flowerbed-config
+                input(type="radio" id="flowerbed" name="flowerbed")
+                label(for="flowerbed") Цветочница с кубами    
+            
+            p.calculate__title-config Дополнительно
+            div.calculate__flowerbed-config
+                input(type="radio" id="flowerbed-add" name="flowerbed-add")
+                label(for="flowerbed-add") Надгробная плита
+            div.calculate__flowerbed-config
+                input(type="radio" id="flowerbed-add" name="flowerbed-add")
+                label(for="flowerbed-add") Полуплита
+            div.calculate__flowerbed-config
+                input(type="radio" id="flowerbed-add" name="flowerbed-add")
+                label(for="flowerbed-add") Две полуплиты 
