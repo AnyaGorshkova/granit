@@ -11,6 +11,9 @@
 }
 
 @import 'section.scss';
-@import 'calculate.scss';
+
+@import 'header.scss';
+@import 'blocks/top-menu.scss';
+
 
 @import 'common/media.scss'; // Всегда в конце
