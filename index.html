@@ -6,7 +6,7 @@
     <meta content="" name="author">
     <meta content="" name="description">
     <meta content="" name="keywords">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--meta(content="width=device-width, initial-scale=1" name="viewport")-->
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta property="og:image" content="path/to/image.jpg">
     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
@@ -61,12 +61,30 @@
           <nav class="main-header__main-nav main-nav"><a class="main-nav__link" href="#">Каталог памятников</a><a class="main-nav__link" href="#">О компании</a><a class="main-nav__link" href="#">Наши услуги</a><a class="main-nav__link" href="#">Контакты</a></nav>
           <ul class="main-header__add-list">
             <li class="main-header__add-item"><a class="main-header__add-link" href="#">
-                <div class="main-header__add-title">Отложенные товары</div>
-                <div class="main-header__add-descr"><span>Вам понравилось</span><span>3 товара</span></div></a></li>
+                <div class="main-header__add-text">
+                  <div class="main-header__add-title">Отложенные товары</div>
+                  <div class="main-header__add-descr"><span>Вам понравилось </span><span>3 товара</span></div>
+                </div></a></li>
             <li class="main-header__add-item"><a class="main-header__add-link" href="#"></a></li>
           </ul>
         </div>
       </div>
     </header>
+    <div class="memorial">
+      <div class="memorial__content">
+        <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
+        <ul class="memorial__params-list">
+          <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
+        </ul>
+        <div class="memorial__price">
+          <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
+          <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
+        </div>
+      </div>
+      <div class="memorial__buttons">
+        <button class="memorial__btn-favorite"></button>
+        <button class="memorial__btn-cart">добавить в корзину</button><a class="memorial__btn-settings" href="#">Выбрать характеристики</a>
+      </div>
+    </div>
   </body>
 </html>
