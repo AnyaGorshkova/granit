@@ -2,6 +2,7 @@
     background-color: $dark-color;
     color:$light-font-color;
     text-transform: uppercase;
+    box-sizing: border-box;
 }
 
 .top-menu__list {
@@ -10,31 +11,24 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    font-family: $default-font;
-    font-size: 12px;
-    line-height: 16.8px;
-    padding: 5px 0;
-    min-height: 1px;
+    font-size: 11px;
 }
 
 .top-menu__item {
     box-sizing: border-box;
     flex-grow: 1;
     position: relative;
-    height: 100%;
 }
-.top-menu__item:nth-child(3) {
-    text-align: center;
-}
+
 .top-menu__item:nth-child(3)::before {
     content: '';
     position: absolute;
     width: 113px;
     height: 1px;
-    background-color: #fff;
-    bottom: 3px;
+    background-color: $light-font-color;
+    bottom: 8px;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -57px;
 
 }
 .top-menu__item::after {
@@ -47,48 +41,54 @@
     margin-top: -13px;
     right: 0;
 }
+
 .top-menu__item:last-child::after {
     content: none;
 }
 .top-menu__link {
     color: $light-font-color;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    padding: 8px 0;
+    box-sizing: border-box;
+    justify-content: center;
+    padding: 12px 0;
 }
-
+.top-menu__item:first-child .top-menu__link {
+    padding-left: 0;
+    justify-content: flex-start;
+    padding-left: 35px;
+}
+.top-menu__item:last-child .top-menu__link {
+    justify-content: flex-end;
+    padding-right: 35px;
+}
 .top-menu__link::before {
     content: '';
+    margin-right: 15px;
+    height: 22px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
 }
 .top-menu__item:nth-child(1) .top-menu__link::before {
     width: 17px;
-    height: 22px;
-    margin-right: 13px;
     background-image: url(../img/user-icon.svg);
 }
 
 .top-menu__item:nth-child(2) .top-menu__link::before {
     width: 16px;
-    height: 22px;
-    margin-right: 11px;
     background-image: url(../img/loc-icon.svg);
 }
-
+.top-menu__item:nth-child(3) .top-menu__link::before {
+    content: none;
+}
 .top-menu__item:nth-child(4) .top-menu__link::before {
-    width: 36px;
-    height: 22px;
-    margin-right: 15px;
+    width: 30px;
     background-image: url(../img/mail-icon.svg);
 }
 
 .top-menu__item:nth-child(5) .top-menu__link::before {
-    width: 36px;
-    height: 22px;
+    width: 30px;
     margin-right: 0;
     background-image: url(../img/vk-icon.svg);
 }

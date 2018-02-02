@@ -6,14 +6,52 @@
 @import 'common/sprite';
 
 // пример использования спрайта
-.vk{
-	@include sprite($vk);
+//.vk{
+//	@include sprite($vk);
+//}
+.main {
+	min-height: 100%;
+    background-image: url(../img/bg-bird.png);
+    background-repeat: repeat;
+	background-position: center center;
+	position: relative;
+
+	&::before  {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(255,2550,255,0.6);
+	}
 }
 
+.container {
+	width: 100%;
+	max-width: 1200px;
+	display: flex;
+	margin: 0 auto;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
 @import 'section.scss';
 
 @import 'header.scss';
 @import 'blocks/top-menu.scss';
+@import 'blocks/contacts.scss';
+@import 'blocks/logo.scss';
+@import 'blocks/mini-cart.scss';
+
+@import 'blocks/memorial.scss';
+@import 'blocks/article.scss';
+@import 'articles.scss';
 
 
+@import 'banner.scss';
+@import 'advantages.scss';
+@import 'popular.scss';
+@import 'granit.scss';
+@import 'blocks/categories-mnu.scss'; 
+@import 'footer.scss';
 @import 'common/media.scss'; // Всегда в конце

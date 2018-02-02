@@ -6,6 +6,8 @@
   font-weight: 400;
 }
 
+// Ubuntu
+
 @font-face {
   font-family: "Ubuntu";
   src:  url("../fonts/Ubuntu/ubuntu-medium.woff") format("woff"),
@@ -28,4 +30,46 @@
         url("../fonts/Ubuntu/ubuntu-bold.woff2") format("woff2");
   font-style: normal;
   font-weight: 700;
+}
+
+// Montserrat
+
+@font-face {
+  font-family: "Montserrat";
+  src:  url("../fonts/Ubuntu/montserrat-regular.woff") format("woff"),
+        url("../fonts/Ubuntu/montserrat-regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:  url("../fonts/Montserrat/montserrat-medium.woff") format("woff"),
+        url("../fonts/Montserrat/montserrat-medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:  url("../fonts/Montserrat/montserrat-semibold.woff") format("woff"),
+        url("../fonts/Montserrat/montserrat-semibold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:  url("../fonts/Montserrat/montserrat-bold.woff") format("woff"),
+        url("../fonts/Montserrat/montserrat-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:  url("../fonts/Montserrat/montserrat-black.woff") format("woff"),
+        url("../fonts/Montserrat/montserrat-black.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
 }

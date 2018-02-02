@@ -1,21 +1,29 @@
 header.main-header
+	
+	include ../blocks/top-menu.pug
+	div.main-header__logo
+		div.main-header__logo-cont
+			div.main-header__contact-cont
+				include ../blocks/contacts.pug
+			include ../blocks/logo.pug
+			div.main-header__cart-cont
+				include ../blocks/mini-cart.pug
 
-	div.top-menu
-		ul.top-menu__list
-			li.top-menu__item
-				a.top-menu__link(href = "#") Личный кабинет
-			li.top-menu__item
-				a.top-menu__link(href = "#") город: архангельск
-			li.top-menu__item
-				a.top-menu__link(href = "#") Памятники и мемориальные комплексы от производителя из карельского гранита
-			li.top-menu__item
-				a.top-menu__link(href = "#") бесплатная консультация
-			li.top-menu__item
-				a.top-menu__link(href = "#")
+	div.main-header__nav
+		.main-header__nav-cont
+			nav.main-header__main-nav.main-nav
+				a(href = "catalog.html").main-nav__link Каталог памятников
+				a(href = "#").main-nav__link О компании
+				a(href = "#").main-nav__link Наши услуги
+				a(href = "#").main-nav__link Контакты
+			ul.main-header__add-list
+				li.main-header__add-item
+					a(href = "#").main-header__add-link
+						div.main-header__add-text
+							div.main-header__add-title Отложенные товары
+							div.main-header__add-descr
+								span Вам понравилось 
+								span 3 товара
+				li.main-header__add-item
+					a(href = "#").main-header__add-link
 
-	div.header__logo
-		div.contacts
-		div.logo
-		div.mini-cart
-	div.header__nav
-		nav.main-nav

@@ -1,0 +1,37 @@
+.categories-mnu {
+    background-color: $dark-color;
+}
+.categories-mnu__list {
+    display: flex;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.categories-mnu__item {
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    flex: 1;
+    //width: calc( (100% - 30px)/7 );
+}
+.categories-mnu__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F7F8FA;
+}
+.categories-mnu__icon {
+    width: 80px;
+    margin-bottom: 10px;
+}
+.categories-mnu__icon svg polygon {
+    fill: #fff;
+}
+.categories-mnu__icon svg rect {
+    fill: $dark-color;
+}
+.categories-mnu__title {
+    
+}

@@ -2,3 +2,112 @@
     font-family: $default-font;
     font-weight: 700;
 }
+.main-header__logo {
+    background-color: $light-color;
+    border-bottom: 2px solid $gray-color;
+}
+.main-header__logo-cont {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 5px 35px;
+    box-sizing: border-box;
+}
+.main-header__nav {
+    background-color: #F7F8FA;
+    border-bottom: 5px solid $dark-color;
+    
+}
+.main-header__nav-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1480px;
+    padding: 0 35px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.main-nav {
+    display: flex;
+    
+}
+.main-nav__link {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: $dark-color;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+}
+.main-nav__link:first-child {
+    color: #fff;
+    background-color: $dark-color;
+}
+.main-nav__link:first-child::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/burger-icon.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 15px;
+}
+.main-header__add-list {
+    display: flex;
+    align-items: center;
+    color: $dark-color;
+    position: relative;
+    
+}
+
+.main-header__add-link {
+    display: flex;
+    align-items: center;
+    padding: 5px 25px;
+    border-right: 1px solid #666;
+    border-left: 1px solid #666;
+}
+.main-header__add-item:last-child .main-header__add-link{
+    padding: 5px 15px;
+    border-left: none;
+}
+.main-header__add-link::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+.main-header__add-item:first-child .main-header__add-link::before {
+    margin-right: 10px;
+    background-image: url(../img/star-icon.svg);
+}
+.main-header__add-item:last-child .main-header__add-link::before {
+    background-image: url(../img/home-icon.svg);
+}
+
+.main-header__add-title {
+    color: $dark-color;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.8px;
+}
+.main-header__add-descr {
+    color: #666;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 14.4px;
+}
+.main-header__add-descr span:last-child {
+    color: $red-color;
+    font-weight: 400;
+}

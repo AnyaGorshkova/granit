@@ -1,0 +1,68 @@
+.granit {
+    position: relative;
+    color: #fff;
+    //background: linear-gradient(to right, #28292d 1%,#515456 41%,#4a4d4e 100%);
+    background-image: url(../img/bg-granit.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 70px;
+}
+
+.granit__list {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 30px 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.granit__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    &:nth-child(2) .granit__img {
+        order: 1;
+    }
+}
+.granit__img {
+    flex: 1;
+}
+.granit__img img {
+    display: block;
+    margin: 0 auto;
+    max-width: 406px;
+}
+.granit__text {
+    flex: 1.13;
+}
+.granit__title {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    line-height: 43.2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 40px;
+    margin-bottom: 35px;
+    position: relative;
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 80px;
+        height: 4px;
+        bottom: 0;
+        left: 50%;
+        background-color: #fff;
+        transform: translateX(-50%);
+    }
+}
+.granit__description {
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: 400;
+}
