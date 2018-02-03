@@ -61,6 +61,7 @@
 .memorial__params-item {
     padding: 15px 0;
     text-align: center;
+    font-size: 14px;
 }
 .memorial__params-list::before {
     content: '';
@@ -105,7 +106,7 @@
     background-color: $dark-color;
     color: #fff;
     margin-right: -10px;
-    padding: 6px 15px 6px 40px;
+    padding: 2px 15px 2px 40px;
     font-size: 22px;
     font-weight: 700;
     position: relative;
@@ -117,9 +118,9 @@
         position: absolute;
         width: 0;
 	    height: 0;
-	    border-top: 25px solid transparent;
+	    border-top: 21px solid transparent;
 	    border-right: 20px solid $dark-color;
-        border-bottom: 25px solid transparent;
+        border-bottom: 21px solid transparent;
         top: 0;
         bottom: 0;
         left:-20px;
@@ -128,13 +129,13 @@
         content: '';
         position: absolute;
         display: block;
-        width: 18px;
-        height: 18px;
+        width: 14px;
+        height: 14px;
         border-radius: 50%;
-        background-color: #e9e9e9;
+        background-color: #fff;
         left: 0;
         top: 50%;
-        margin-top: -9px;
+        margin-top: -7px;
     }
     & span:first-child {
         font-size: 16px;
@@ -168,20 +169,21 @@
     font-size: 14px;
     color: $dark-color;
     background-color: transparent;
-    padding: 10px 0;
+    padding: 5px 0 0 0;
     box-sizing: border-box;
-    line-height: 9.32px;
+    line-height: 1.2;
     border: 1px solid $dark-color;
     cursor: pointer;
     margin-bottom: 5px;
     &::after {
         content: '';
         width: 30px;
-        height: 30px;
-        margin-left: 8px;
+        height: 45px;
+        //border: 1px solid;
+        margin-left: 5px;
         background-image: url(../img/cart-icon.svg);
         background-repeat: no-repeat;
-        background-position: right center;
+        background-position: center 5px;
         background-size: contain;
     }
 }
@@ -192,6 +194,6 @@
     color: #fff;
     font-size: 14px;
     text-align: center;
-    padding: 20px 0;
-    line-height: 9.32px;
+    padding: 20px 0 15px 0;
+    line-height: 1.2;
 }

@@ -12,7 +12,7 @@
 .footer__subscribe-content {
     width: 100%;
     max-width: 1200px;
-    padding: 0 30px;
+    padding: 0 15px;
     position: relative;
     padding-left: 210px;
     box-sizing: border-box;
@@ -21,7 +21,7 @@
         position: absolute;
         height: 100%;
         width: 130px;
-        left: 30px;
+        left: 15px;
         background-image: url(../img/mail.svg);
         background-repeat: no-repeat;
         background-position: center center;
@@ -70,7 +70,7 @@
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 15px;
     box-sizing: border-box;
     flex-wrap: wrap;
     margin-bottom: 30px;
@@ -117,7 +117,7 @@
     align-items: center;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 0 30px;
+    padding: 0 15px;
     padding-bottom: 10px;
     justify-content: space-between;
     border-bottom: 1px solid $red-color;
@@ -162,7 +162,7 @@
 .footer__copyright {
     width: 100%;
     max-width: 1200px;
-    padding: 15px 30px;
+    padding: 15px;
     box-sizing: border-box;
     margin: 0 auto;
     font-size: 16px;

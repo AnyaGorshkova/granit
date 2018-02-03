@@ -1,8 +1,8 @@
 .granit {
     position: relative;
     color: #fff;
-    //background: linear-gradient(to right, #28292d 1%,#515456 41%,#4a4d4e 100%);
-    background-image: url(../img/bg-granit.png);
+    background: linear-gradient(to right, $dark-color 5%,#515456 30%,#4a4d4e 100%);
+    //background-image: url(../img/bg-granit.png);
     background-position: center;
     background-size: cover;
     padding-top: 70px;
@@ -40,7 +40,7 @@
     padding: 0;
     margin: 0;
     font-size: 36px;
-    line-height: 43.2px;
+    line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
