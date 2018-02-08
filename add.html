@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Каталог</title>
+    <title>Добавить в корзину</title>
     <meta content="" name="author">
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -22,6 +22,30 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
   </head>
   <body>
+    <div class="modal">
+      <div class="modal__popup">
+        <div class="modal__header">
+          <p class="modal__header-text">Этот товар добавлен в Вашу корзину</p>
+          <div class="modal__close"></div>
+        </div>
+        <div class="modal__content">
+          <div class="modal__img"><img src="assets/img/mem1.png"></div>
+          <div class="modal__description">
+            <div class="modal__title"><span>Краткая информация о товаре: </span><span>модель 15.1</span></div>
+            <ul class="modal__list">
+              <li class="modal__list-item"><span>Тип гранита:   </span><span>Габбро-диабаз</span></li>
+              <li class="modal__list-item"><span>Полировка:  </span><span>Все видимые стороны</span></li>
+              <li class="modal__list-item"><span>Размер стеллы:  </span><span>100х100 см</span></li>
+              <li class="modal__list-item"><span>Размер цветочницы: </span><span>100х100 см</span></li>
+            </ul>
+            <div class="modal__price"><span>Стоимость памятника:  </span><span>14 000 Р</span></div>
+            <div class="modal__buttons">
+              <button class="modal__btn modal__btn--light" type="button">Продолжить выбор</button><a class="modal__btn modal__btn--dark" href="cart.html">Оформить заказ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <header class="main-header">
       <div class="top-menu">
         <ul class="top-menu__list">
@@ -175,178 +199,7 @@
         </ul>
       </div>
     </div>
-    <main class="main">
-      <h2 class="catalog__title">Фигурные. Эконом <span>(157 моделей)</span></h2>
-      <ul class="filter">
-        <li class="filter__item">
-          <h3 class="filter__title">Выберете желаемый диапазон цен:</h3>
-          <ul class="filter__list">
-            <li class="filter__list-item">
-              <input class="filter__radio" type="radio" id="1" name="price">
-              <label class="filter__label" for="1">до 10 000 Р</label>
-            </li>
-            <li class="filter__list-item">
-              <input class="filter__radio" type="radio" id="30000" name="price">
-              <label class="filter__label" for="30000">10 000 - 30 000 Р</label>
-            </li>
-            <li class="filter__list-item">
-              <input class="filter__radio" type="radio" id="70000" name="price">
-              <label class="filter__label" for="70000">30 000 - 70 000 Р</label>
-            </li>
-            <li class="filter__list-item">
-              <input class="filter__radio" type="radio" id="200000" name="price">
-              <label class="filter__label" for="200000">более 200 000</label>
-            </li>
-          </ul>
-        </li>
-        <li class="filter__item">
-          <h3 class="filter__title">Сортировать по:</h3>
-        </li>
-      </ul>
-      <div class="container">
-        <div class="memorial"><a class="memorial__content" href="#">
-            <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
-            <ul class="memorial__params-list">
-              <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
-            </ul>
-            <div class="memorial__price">
-              <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
-              <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
-            </div></a>
-          <div class="memorial__buttons">
-            <button class="memorial__btn-favorite">
-              <div class="memorial__tip">добавить в список покупок</div>
-            </button><a class="memorial__btn-cart" href="add.html">добавить в корзину</a><a class="memorial__btn-settings" href="card.html">Выбрать характеристики</a>
-          </div>
-        </div>
-        <div class="memorial"><a class="memorial__content" href="#">
-            <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
-            <ul class="memorial__params-list">
-              <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
-            </ul>
-            <div class="memorial__price">
-              <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
-              <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
-            </div></a>
-          <div class="memorial__buttons">
-            <button class="memorial__btn-favorite">
-              <div class="memorial__tip">добавить в список покупок</div>
-            </button><a class="memorial__btn-cart" href="add.html">добавить в корзину</a><a class="memorial__btn-settings" href="card.html">Выбрать характеристики</a>
-          </div>
-        </div>
-        <div class="memorial"><a class="memorial__content" href="#">
-            <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
-            <ul class="memorial__params-list">
-              <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
-            </ul>
-            <div class="memorial__price">
-              <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
-              <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
-            </div></a>
-          <div class="memorial__buttons">
-            <button class="memorial__btn-favorite">
-              <div class="memorial__tip">добавить в список покупок</div>
-            </button><a class="memorial__btn-cart" href="add.html">добавить в корзину</a><a class="memorial__btn-settings" href="card.html">Выбрать характеристики</a>
-          </div>
-        </div>
-        <div class="memorial"><a class="memorial__content" href="#">
-            <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
-            <ul class="memorial__params-list">
-              <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
-            </ul>
-            <div class="memorial__price">
-              <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
-              <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
-            </div></a>
-          <div class="memorial__buttons">
-            <button class="memorial__btn-favorite">
-              <div class="memorial__tip">добавить в список покупок</div>
-            </button><a class="memorial__btn-cart" href="add.html">добавить в корзину</a><a class="memorial__btn-settings" href="card.html">Выбрать характеристики</a>
-          </div>
-        </div>
-        <div class="memorial"><a class="memorial__content" href="#">
-            <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
-            <ul class="memorial__params-list">
-              <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
-            </ul>
-            <div class="memorial__price">
-              <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
-              <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
-            </div></a>
-          <div class="memorial__buttons">
-            <button class="memorial__btn-favorite">
-              <div class="memorial__tip">добавить в список покупок</div>
-            </button><a class="memorial__btn-cart" href="add.html">добавить в корзину</a><a class="memorial__btn-settings" href="card.html">Выбрать характеристики</a>
-          </div>
-        </div>
-        <div class="memorial"><a class="memorial__content" href="#">
-            <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
-            <ul class="memorial__params-list">
-              <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
-            </ul>
-            <div class="memorial__price">
-              <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
-              <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
-            </div></a>
-          <div class="memorial__buttons">
-            <button class="memorial__btn-favorite">
-              <div class="memorial__tip">добавить в список покупок</div>
-            </button><a class="memorial__btn-cart" href="add.html">добавить в корзину</a><a class="memorial__btn-settings" href="card.html">Выбрать характеристики</a>
-          </div>
-        </div>
-        <div class="memorial"><a class="memorial__content" href="#">
-            <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
-            <ul class="memorial__params-list">
-              <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
-            </ul>
-            <div class="memorial__price">
-              <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
-              <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
-            </div></a>
-          <div class="memorial__buttons">
-            <button class="memorial__btn-favorite">
-              <div class="memorial__tip">добавить в список покупок</div>
-            </button><a class="memorial__btn-cart" href="add.html">добавить в корзину</a><a class="memorial__btn-settings" href="card.html">Выбрать характеристики</a>
-          </div>
-        </div>
-        <div class="memorial"><a class="memorial__content" href="#">
-            <h3 class="memorial__title">модель 15.1-1</h3><img class="memorial__img" src="assets/img/mem1.png" title="модель 15.1-1">
-            <ul class="memorial__params-list">
-              <li class="memorial__params-item"><span>размер памятника: </span><span>100*80*6 см</span></li>
-            </ul>
-            <div class="memorial__price">
-              <div class="memorial__old-price"><span>от </span><span>15 000 </span><span>руб.</span></div>
-              <div class="memorial__new-price"><span>от </span><span>13 000 </span><span>руб.</span></div>
-            </div></a>
-          <div class="memorial__buttons">
-            <button class="memorial__btn-favorite">
-              <div class="memorial__tip">добавить в список покупок</div>
-            </button><a class="memorial__btn-cart" href="add.html">добавить в корзину</a><a class="memorial__btn-settings" href="card.html">Выбрать характеристики</a>
-          </div>
-        </div>
-      </div>
-      <section class="section steps">
-        <h2 class="section__title section__title--wide">Этапы изготовления памятника на заказ</h2>
-        <ul class="steps__list">
-          <li class="steps__item">
-            <h4 class="steps__title"><span class="steps__title-num">1</span><span class="steps__tetle-text">оформление заказа на сайте </span></h4>
-            <p class="steps__text">При первом обращении Вам будет предложено выбрать готовую памятную стеллу, либо обсудить индивидуальный проект. Мы всегда идём на встречу своим заказчикам и готовы реализовать самые сложные задачи. При оформлении заказа необходимо внести аванс в размере 30% от полной стоимости</p>
-          </li>
-          <li class="steps__item">
-            <h4 class="steps__title"><span class="steps__title-num">2</span><span class="steps__tetle-text">разработка оригинал-модели</span></h4>
-            <p class="steps__text">При первом обращении Вам будет предложено выбрать готовую памятную стеллу, либо обсудить индивидуальный проект. Мы всегда идём на встречу своим заказчикам и готовы реализовать самые сложные задачи. При оформлении заказа необходимо внести аванс в размере 30% от полной стоимости</p>
-          </li>
-          <li class="steps__item">
-            <h4 class="steps__title"><span class="steps__title-num">3</span><span class="steps__tetle-text">процесс изготовления</span></h4>
-            <p class="steps__text">При первом обращении Вам будет предложено выбрать готовую памятную стеллу, либо обсудить индивидуальный проект. Мы всегда идём на встречу своим заказчикам и готовы реализовать самые сложные задачи. При оформлении заказа необходимо внести аванс в размере 30% от полной стоимости</p>
-          </li>
-          <li class="steps__item">
-            <h4 class="steps__title"><span class="steps__title-num">4</span><span class="steps__tetle-text">получение заказа. оплата. доставка</span></h4>
-            <p class="steps__text">При первом обращении Вам будет предложено выбрать готовую памятную стеллу, либо обсудить индивидуальный проект. Мы всегда идём на встречу своим заказчикам и готовы реализовать самые сложные задачи. При оформлении заказа необходимо внести аванс в размере 30% от полной стоимости</p>
-          </li>
-        </ul>
-      </section>
-    </main>
+    <main class="main"></main>
     <footer class="footer">
       <div class="footer__subscribe">
         <div class="footer__subscribe-content">
