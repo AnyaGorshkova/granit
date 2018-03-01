@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Авторизация</title>
+    <title>Личный кабинет</title>
     <meta content="" name="author">
     <meta content="" name="description">
     <meta content="" name="keywords">
@@ -93,31 +93,73 @@
       <ul class="breadcrumbs">
         <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="index.html"><span class="breadcrumbs__text">Главная</span></a></li>
         <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="personal.html"><span class="breadcrumbs__text">Личный кабинет</span></a></li>
-        <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="login.html"><span class="breadcrumbs__text">Вход/Регистрация</span></a></li>
       </ul>
-      <section class="login">
-        <div class="login__block">
-          <div class="login__content">
-            <h3 class="login__title">Создать личный кабинет</h3>
-            <p class="login__subtitle">Регистрация</p>
-            <p class="login__description">Создав учетную запись, вы сможете делать покупки быстрее, быть в курсе состояния заказа и отслеживать заказы, которые вы ранее делали.</p>
-          </div>
-          <div class="login__buttons"><a class="login__button" href="registration.html">зарегистрироваться</a></div>
-        </div>
-        <div class="login__block">
-          <div class="login__content">
-            <h3 class="login__title">Войти в личный кабинет</h3>
-            <p class="login__subtitle">Я зарегестрированный пользователь</p>
-            <form class="login__form" action="">
-              <label class="login__label">E-mail или телефон</label>
-              <input class="login__input" type="text" placeholder="E-mail или телефон">
-              <label class="login__label">Пароль</label>
-              <input class="login__input" type="text" placeholder="Пароль">
-            </form>
-          </div>
-          <div class="login__buttons"><a class="login__button" href="personal.html">войти в аккаунт</a></div>
-        </div>
-      </section>
+      <div class="block">
+        <h2 class="block__title">Личный кабинет</h2>
+        <table class="block__table block__table--half">
+          <tr>
+            <th>ваши данные</th>
+            <th>адрес доставки</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="block__table-text">
+                <p class="block__data"><span>имя: </span><span>Константинов константин</span></p>
+                <p class="block__data"><span>ваш телефон: </span><span>+79112090448</span></p>
+                <p class="block__data"><span>e-mail: </span><span>example@mail.ru</span></p>
+                <p class="block__data"><span>пароль от кабинета: </span><span>********</span></p>
+              </div>
+              <div class="block__buttons">
+                <button class="block__button block__button--dark">Изменить данные</button>
+                <button class="block__button block__button--light">Удалить профиль</button>
+              </div>
+            </td>
+            <td>
+              <div class="block__table-text">
+                <p class="block__data block__data--medium">г.Петропавловск-камчатский ул. строителей д. 15</p>
+              </div>
+              <div class="block__buttons">
+                <button class="block__button block__button--dark">Изменить</button>
+              </div>
+            </td>
+          </tr>
+        </table>
+        <h3 class="block_subtitle">Статус ваших заказов</h3>
+        <table class="block__table">
+          <tr>
+            <th>число, дата</th>
+            <th>заказ</th>
+            <th>номер заказа</th>
+            <th>Статус</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <ul class="offers">
+        <li class="offers__item">
+          <h3 class="offers__title">Фигурные памятники</h3>
+          <p class="offers__price">от 12 000 Р</p><a class="offers__button" href="catalog.html">Подробнее</a>
+        </li>
+        <li class="offers__item">
+          <h3 class="offers__title">прямоугольные памятники</h3>
+          <p class="offers__price">от 12 000 Р</p><a class="offers__button" href="catalog.html">Подробнее</a>
+        </li>
+        <li class="offers__item">
+          <h3 class="offers__title">двойные памятники</h3>
+          <p class="offers__price">от 12 000 Р</p><a class="offers__button" href="catalog.html">Подробнее</a>
+        </li>
+      </ul>
     </main>
     <footer class="footer">
       <div class="footer__subscribe">
