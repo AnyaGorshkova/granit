@@ -25,7 +25,13 @@
     <header class="main-header">
       <div class="top-menu">
         <ul class="top-menu__list">
-          <li class="top-menu__item"><a class="top-menu__link" href="login.html">Личный кабинет</a></li>
+          <li class="top-menu__item top-menu__item--sub">
+            <div class="top-menu__link">Личный кабинет</div>
+            <ul class="top-menu__sub-list">
+              <li class="top-menu__sub-item"><a class="top-menu__sub-link" href="login.html"> мой аккаунт</a></li>
+              <li class="top-menu__sub-item"><a class="top-menu__sub-link" href="#">выйти</a></li>
+            </ul>
+          </li>
           <li class="top-menu__item"><a class="top-menu__link" href="#">город: архангельск</a></li>
           <li class="top-menu__item"><a class="top-menu__link" href="#">Памятники и мемориальные комплексы от производителя из карельского гранита</a></li>
           <li class="top-menu__item"><a class="top-menu__link" href="#">бесплатная консультация</a></li>
@@ -149,6 +155,14 @@
             <td>12 000 Р</td>
           </tr>
         </table>
+        <div class="block__price-cart"><span>итого: </span><span>24 000</span><span>руб</span></div>
+        <div class="block__cart-submit">
+          <div class="block__cart-comments">после оформления заказа с вами свяжеться наш менеджер </div>
+          <div class="block__cart-buttons">
+            <button class="block__button block__button--light block__button--bold">заказать в один клик</button>
+            <button class="block__button block__button--dark block__button--bold">оформить заказ</button>
+          </div>
+        </div>
       </div>
     </main>
     <footer class="footer">
